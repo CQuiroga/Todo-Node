@@ -5,8 +5,9 @@ const Tareas = require('./models/tareas');
 const { guardarDB, leerDB } = require('./helpers/guardarArchivo');
 
 
-
 console.clear();
+
+// función principal o 'Main' de la aplicación
 
 const main = async() => {
 
@@ -60,10 +61,6 @@ const main = async() => {
                     }
                 }
                 break;
-            /*
-            case '7':
-                
-                break; */
         }
 
         guardarDB( tareas.listadoArray );

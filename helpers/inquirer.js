@@ -59,7 +59,7 @@ const pausa = async() => {
     const question = [
         {
             type: 'input',
-            name: 'Confirima',
+            name: 'Confirma',
             message: `\nPresione ${colors.blue('Enter')} para continuar`
         }
         
@@ -163,3 +163,5 @@ const leerInput = async( message ) =>{
 
 module.exports = {inquirerMenu, pausa, leerInput, 
                   listadoTareasBorrar, confirmar, mostrarListadoCheckList};
+
+                  
